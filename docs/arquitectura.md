@@ -32,6 +32,4 @@ Esta separación facilita el control, el mantenimiento y la escalabilidad del si
 ## Diagrama lógico de red
 
 ```markdown
-![Diagrama de Red](pics/red-design.PNG)
-ç
-
+![Diagrama de red](docs/pics/red-design.PNG)
