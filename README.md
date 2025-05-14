@@ -1,41 +1,28 @@
 # LinuxZeroTouch
 
-##Descripción
+## Descripción
 
-Proyecto orientado a la automatización de instalación y configuración de sistemas Linux mediante el uso de herramientas:
+Proyecto orientado a la automatización de la instalación y configuración de sistemas Linux mediante el uso de herramientas como:
 
--PXE
-
--Preseed
-
--Ansible
-
--Cloud-init
-
+- PXE
+- Preseed
+- Ansible
+- Cloud-init
 
 ## Estructura del Proyecto
 
-- `preseed/`: Archivos de configuración para automatización de instalación con Preseed.
+- `config/`: Archivos de configuración para la instalación automática (Preseed), personalización inicial (cloud-init) y configuración post-instalación (Ansible).
+- `scripts/`: Scripts adicionales para tareas complementarias o soporte a la automatización.
+- `docs/`: Documentación técnica del proyecto.
+- `demo/`: Archivos relacionados con la demostración del proyecto (capturas, grabaciones, configuraciones del entorno virtual, etc.).
 
-- `cloud-init/`: Archivos de configuración para personalización con Cloud-Init.
+## Cómo ejecutar
 
-- `ansible/`: librerías y roles de Ansible para configurar los sistemas después de la 
-instalación.
-
-- `scripts/`: Scripts adicionales para tareas post-instalación.
-
-- `docs/`: Documentación del proyecto.
-
-
-##Cómo ejecutar 
-
-1. Clonar este repositorio
+1. Clonar este repositorio:
 
 ```bash
+git clone https://github.com/martincosmen/LinuxZeroTouch.git
+```
+2. Dirígete a la carpeta correspondiente según la tarea (por ejemplo, config/ para ver configuraciones o scripts/ para ejecutar scripts).
 
-	git clone https://github.com/martincosmen/LinuxZeroTouch.git
-
-2. Dirígete a la carpeta correspondiente según la tarea (por ejemplo, ansible/ para ejecutar playbooks).
-
-3. Sigue las instrucciones de cada carpeta para configurar y automatizar tu entorno.	
-
+3. Sigue las instrucciones dentro de cada carpeta para configurar y automatizar tu entorno.

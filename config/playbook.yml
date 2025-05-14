@@ -1,0 +1,4 @@
+# playbook.yml
+# Este fichero contiene el playbook de Ansible que se ejecuta tras la instalación del sistema.
+# Define tareas automatizadas de configuración como la instalación de software, cambios en servicios, permisos y ajustes de seguridad.
+# Representa la fase de postconfiguración del equipo en el proceso de maquetación.
