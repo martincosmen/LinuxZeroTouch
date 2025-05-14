@@ -31,4 +31,4 @@ Esta separación facilita el control, el mantenimiento y la escalabilidad del si
 
 ## Diagrama lógico de red
 
-![Diagrama de red](diagrama_red.png)
+![Diagrama de red](/docs/pics/diagrama_red.png)
