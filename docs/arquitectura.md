@@ -31,7 +31,6 @@ Esta separación facilita el control, el mantenimiento y la escalabilidad del si
 
 ## Diagrama lógico de red
 
-Aquí puedes insertar el diagrama de red en cuanto lo tengas exportado como imagen:
-
 ```markdown
-![Diagrama de red](../demo/imagen_red.png)
+![Diagrama de Red](./pics/diseño-red.PNG)
+
