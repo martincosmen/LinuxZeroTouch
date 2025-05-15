@@ -9,6 +9,8 @@ Proyecto orientado a la automatización de la instalación y configuración de s
 - Ansible
 - Cloud-init
 
+Este repositorio se realiza con la idea de ordenadar con precisión mi proyecto de fin de ciclo.
+
 ## Estructura del Proyecto
 
 - `config/`: Archivos de configuración para la instalación automática (Preseed), personalización inicial (cloud-init) y configuración post-instalación (Ansible).

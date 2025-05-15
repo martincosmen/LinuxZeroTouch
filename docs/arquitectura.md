@@ -42,3 +42,5 @@ El objetivo principal es simular un entorno de despliegue controlado, donde el s
 Este enfoque garantiza mayor control sobre el proceso, evita dependencias externas y permite realizar pruebas de manera segura y autónoma. Además, refleja el comportamiento habitual de muchas redes empresariales, donde la instalación de sistemas se realiza en entornos cerrados por motivos de seguridad.
 
 En una implementación real, el servidor podría estar conectado a internet para obtener paquetes actualizados o acceder a repositorios. De todos modos, esta conexión se daría mediante una salida NAT que estaría totalmente controlada por el firewall corporativo de la empresa.
+
+## 4.2.2 Comunicaciones internas
