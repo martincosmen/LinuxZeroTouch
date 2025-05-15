@@ -25,11 +25,16 @@ El siguiente esquema representa las relaciones principales entre los elementos q
 - **Instalación**  
   Registra cada proceso de instalación realizado. 
   
-  Campos: `fk_ID_Equipo`, `fk_ID_Imagen`, `Fecha`, `Resultado`.
+  Campos: `ID_Equipo`, `ID_Imagen`, `ID_Tecnico`, `Fecha`, `Resultado`.
 
 - **Técnico**  
-  Representa a los técnicos encargados del despliegue o mantenimiento. Relacionado con las instalaciones realizadas.
+  Representa a los técnicos encargados del despliegue o mantenimiento. 
+  
+  Campos: `ID_Tecnico`, `nombre`, `email`, `telefono`.
 
+  ## Descripción de las relaciones
+
+  
 ## Observaciones
 
 - Este modelo es solo conceptual y tiene como objetivo representar cómo se gestionaría la automatización si se necesitase persistencia de datos.
