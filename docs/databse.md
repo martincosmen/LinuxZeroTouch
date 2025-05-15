@@ -4,12 +4,6 @@
 
 Aunque este proyecto no se centra en el desarrollo de una aplicación web o un sistema que requiera una base de datos funcional, se incluye un modelo Entidad/Relación (E/R) que representa de forma conceptual el modelo de negocio relacionado con el entorno de automatización de instalaciones en una empresa de soporte técnico como PLEXUS TECH.
 
-## Modelo Entidad/Relación
-
-El siguiente esquema representa las relaciones principales entre los elementos que intervienen en la automatización del proceso de instalación y configuración de equipos.
-
-![Modelo ER](./pics/modelo_er.png)
-
 ## Descripción de las entidades
 
 - **Equipo**  
@@ -83,6 +77,13 @@ FOREIGN KEY (id_imagen) REFERENCES imagen(id_imagen),
 FOREIGN KEY (id_tecnico) REFERENCES tecnico(id_tecnico)
 );
 </pre>
+
+## Modelo Entidad/Relación
+
+El siguiente esquema representa las relaciones principales entre los elementos que intervienen en la automatización del proceso de instalación y configuración de equipos.
+
+![Modelo ER](./pics/modelo_er.png)
+
 
    ## Observaciones
 
