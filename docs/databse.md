@@ -77,9 +77,9 @@ CREATE TABLE instalacion (
     fecha DATETIME NOT NULL,
     resultado VARCHAR(50),
 
-    FOREIGN KEY (id_equipo) REFERENCES equipo(id_equipo),
-    FOREIGN KEY (id_imagen) REFERENCES imagen(id_imagen),
-    FOREIGN KEY (id_tecnico) REFERENCES tecnico(id_tecnico)
+FOREIGN KEY (id_equipo) REFERENCES equipo(id_equipo),
+FOREIGN KEY (id_imagen) REFERENCES imagen(id_imagen),
+FOREIGN KEY (id_tecnico) REFERENCES tecnico(id_tecnico)
 );
 
 ## Observaciones
