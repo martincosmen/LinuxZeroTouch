@@ -33,7 +33,7 @@ Esta separación facilita el control, el mantenimiento y la escalabilidad del si
 
 ![Diagrama de red](/docs/pics/diagrama_red.png)
 
-## 4.2.1. Comunicaciones externas
+## Comunicaciones externas
 
 En este proyecto no se establece ninguna conexión con redes externas ni con Internet. Todo el entorno está diseñado para funcionar de manera completamente local, dentro de una red LAN aislada.
 
@@ -43,4 +43,4 @@ Este enfoque garantiza mayor control sobre el proceso, evita dependencias extern
 
 En una implementación real, el servidor podría estar conectado a internet para obtener paquetes actualizados o acceder a repositorios. De todos modos, esta conexión se daría mediante una salida NAT que estaría totalmente controlada por el firewall corporativo de la empresa.
 
-## 4.2.2 Comunicaciones internas
+## Comunicaciones internas
