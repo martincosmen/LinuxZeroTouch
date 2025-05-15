@@ -1,5 +1,5 @@
 # SERVICIOS
-Este archivo define los servicios que se utilizarán en el proyecto y proporcionará las explicaciones para su implementación
+Este archivo define los servicios que se utilizarán en el proyecto y proporcionará las explicaciones para su implementación.
 
 ## DHCP
 
