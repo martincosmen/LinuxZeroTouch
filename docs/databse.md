@@ -42,6 +42,7 @@ El siguiente esquema representa las relaciones principales entre los elementos q
 
   ## Código para crear la base de datos
 
+<pre>
 CREATE DATABASE IF NOT EXISTS linux_zero_touch;
 USE linux_zero_touch;
 
@@ -81,8 +82,9 @@ FOREIGN KEY (id_equipo) REFERENCES equipo(id_equipo),
 FOREIGN KEY (id_imagen) REFERENCES imagen(id_imagen),
 FOREIGN KEY (id_tecnico) REFERENCES tecnico(id_tecnico)
 );
+</pre>
 
-## Observaciones
+   ## Observaciones
 
 - Este modelo es solo conceptual y tiene como objetivo representar cómo se gestionaría la automatización si se necesitase persistencia de datos.
 - No se implementará físicamente ninguna base de datos como parte del despliegue técnico del proyecto.
