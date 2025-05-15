@@ -36,7 +36,7 @@ El siguiente esquema representa las relaciones principales entre los elementos q
 
   Un técnico puede realizar varias instalaciones (Técnico - Instalación 1:N)
 
-  Una imágen puede ser usada en muchas instalaciones (Imágen - Instalación 1:N)
+  Una imagen puede ser usada en muchas instalaciones (Imágen - Instalación 1:N)
 
   Un equipo puede recibir muchas instalaciones (por las actualizaciones) (Equipo - Instalación 1:N)
 
