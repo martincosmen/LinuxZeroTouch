@@ -66,3 +66,22 @@ Asignación dinámica de direcciones IP: El servidor proporciona direcciones IP 
 
 
 En resumen, esta red interna está diseñada para ser eficiente, segura y totalmente autosuficiente, garantizando un despliegue rápido y fiable en entornos controlados de pruebas o producción.
+
+## Integración de redes y dispositivos
+
+La solución propuesta se apoya en la integración de un servidor central con varios dispositivos cliente dentro de una misma red local, interconectados mediante un switch.
+El servidor actúa como punto único de gestión y despliegue, integrando múltiples servicios necesarios para la instalación desatendida de los sistemas operativos:
+DHCP: asigna direcciones IP dinámicas a los clientes al arrancar por red.
+
+
+*TFTP*: proporciona los archivos necesarios para el arranque PXE.
+
+
+*HTTP*: sirve las imágenes del sistema operativo y los ficheros de configuración (Preseed, cloud-init).
+
+
+*Ansible*: gestiona la configuración post-instalación de forma centralizada y reproducible.
+
+
+Todos los dispositivos de la red están conectados directamente al switch, lo que garantiza un tráfico interno rápido, estable y seguro.
+Esta integración permite que cualquier equipo conectado a la red pueda ser instalado y configurado automáticamente sin intervención manual, siempre que esté preparado para arrancar por PXE.
