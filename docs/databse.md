@@ -15,13 +15,13 @@ El siguiente esquema representa las relaciones principales entre los elementos q
 - **Equipo**  
   Contiene información de cada equipo cliente a instalar. Incluye campos como `ID_Equipo`, `Hostname`, `Dirección MAC`, `Estado`.
 
-- **Imagen_Sistema**  
+- **Imagen**  
   Representa las imágenes de sistemas disponibles. Contiene datos como `ID_Imagen`, `Nombre`, `Versión`, `Tipo de sistema`, etc.
 
 - **Instalación**  
   Registra cada proceso de instalación realizado. Incluye referencias al equipo y la imagen usada, así como la fecha y resultado.
 
-- **Usuario_Técnico**  
+- **Técnico**  
   Representa a los técnicos encargados del despliegue o mantenimiento. Relacionado con las instalaciones realizadas.
 
 ## Observaciones
