@@ -8,7 +8,7 @@ Aunque este proyecto no se centra en el desarrollo de una aplicación web o un s
 
 El siguiente esquema representa las relaciones principales entre los elementos que intervienen en la automatización del proceso de instalación y configuración de equipos.
 
-![Modelo ER](../pics/modelo_er.png)
+![Modelo ER](./pics/modelo_er.png)
 
 ## Descripción de las entidades
 
