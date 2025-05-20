@@ -1,4 +1,4 @@
-## 4.5 - Software y Paquetes de Software
+## Software y Paquetes de Software
 
 En este apartado se detalla el conjunto de aplicaciones que se instalarán automáticamente en los equipos según el departamento al que pertenezcan, como parte del sistema de despliegue automatizado de Linux.
 
