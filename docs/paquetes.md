@@ -1,13 +1,10 @@
-"""
-## 🧩 4.5 - Software y Paquetes de Software
+## 4.5 - Software y Paquetes de Software
 
 En este apartado se detalla el conjunto de aplicaciones que se instalarán automáticamente en los equipos según el departamento al que pertenezcan, como parte del sistema de despliegue automatizado de Linux.
 
 Cada equipo contará con un conjunto común de herramientas básicas, y un grupo adicional de aplicaciones específicas en función de su rol dentro de la empresa. Esta estrategia evita la sobrecarga de software innecesario, asegurando un entorno de trabajo eficiente y adaptado.
 
----
-
-### 🔧 Paquetes Comunes
+### Paquetes Comunes
 
 Todos los equipos, sin importar su departamento, incluirán el siguiente software básico:
 
@@ -23,7 +20,6 @@ Todos los equipos, sin importar su departamento, incluirán el siguiente softwar
 - Capturas de pantalla: **gnome-screenshot**
 - Monitoreo del sistema: **gnome-system-monitor**
 
----
 
 ### 💻 Departamento de Desarrollo
 
@@ -40,8 +36,6 @@ Todos los equipos, sin importar su departamento, incluirán el siguiente softwar
 **Objetivo:**  
 Permitir a los desarrolladores programar, compilar y desplegar aplicaciones desde el primer arranque, sin pasos manuales. Cumple el objetivo de automatización del entorno de desarrollo.
 
----
-
 ### 🛠️ Departamento de Administración de Sistemas
 
 > Software orientado a la administración remota, gestión de redes y servicios.
@@ -57,8 +51,6 @@ Permitir a los desarrolladores programar, compilar y desplegar aplicaciones desd
 **Objetivo:**  
 Permitir al equipo técnico gestionar sistemas, redes y servicios desde el arranque, facilitando el soporte y mantenimiento inmediato.
 
----
-
 ### 🧾 Departamento de Recursos Humanos
 
 > Software centrado en la gestión documental, comunicación y multimedia.
@@ -73,4 +65,3 @@ Permitir al equipo técnico gestionar sistemas, redes y servicios desde el arran
 
 **Objetivo:**  
 Proporcionar al equipo de RRHH un entorno ágil para trabajar con documentos, coordinar tareas y comunicarse sin obstáculos desde el primer uso.
-"""
