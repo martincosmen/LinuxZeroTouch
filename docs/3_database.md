@@ -1,4 +1,4 @@
-# 4.4 Base de datos
+# Base de datos
 
 ## Introducción
 
