@@ -16,8 +16,8 @@ Cada equipo contará con un conjunto común de herramientas básicas, y un grupo
 - Gestor de archivos: **Nautilus (GNOME)**
 - Soporte remoto: **AnyDesk**
 - Visor de PDFs: **Evince**
-- Capturas de pantalla: **gnome-screenshot**
 - Monitoreo del sistema: **gnome-system-monitor**
+- Seguridad básica : **ClamAV**
 
 
 ### Departamento de Desarrollo
