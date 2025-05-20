@@ -5,8 +5,7 @@ En este apartado se detalla el conjunto de aplicaciones que se instalarán autom
 Cada equipo contará con un conjunto común de herramientas básicas, y un grupo adicional de aplicaciones específicas en función de su rol dentro de la empresa. Esta estrategia evita la sobrecarga de software innecesario, asegurando un entorno de trabajo eficiente y adaptado.
 
 ### Paquetes Comunes
-
-Todos los equipos, sin importar su departamento, incluirán el siguiente software básico:
+ Todos los equipos, sin importar su departamento, incluirán el siguiente software básico:
 
 - Navegador web: **Firefox**
 - Terminal: **GNOME Terminal**
@@ -21,9 +20,8 @@ Todos los equipos, sin importar su departamento, incluirán el siguiente softwar
 - Monitoreo del sistema: **gnome-system-monitor**
 
 
-### 💻 Departamento de Desarrollo
-
-> Software orientado a la programación, compilación y pruebas de software.
+### Departamento de Desarrollo
+ Software orientado a la programación, compilación y pruebas de software.
 
 **Herramientas adicionales:**
 - Control de versiones: **Git**
@@ -36,9 +34,8 @@ Todos los equipos, sin importar su departamento, incluirán el siguiente softwar
 **Objetivo:**  
 Permitir a los desarrolladores programar, compilar y desplegar aplicaciones desde el primer arranque, sin pasos manuales. Cumple el objetivo de automatización del entorno de desarrollo.
 
-### 🛠️ Departamento de Administración de Sistemas
-
-> Software orientado a la administración remota, gestión de redes y servicios.
+### Departamento de Administración de Sistemas
+ Software orientado a la administración remota, gestión de redes y servicios.
 
 **Herramientas adicionales:**
 - Conexión remota: **Remmina**
@@ -51,9 +48,8 @@ Permitir a los desarrolladores programar, compilar y desplegar aplicaciones desd
 **Objetivo:**  
 Permitir al equipo técnico gestionar sistemas, redes y servicios desde el arranque, facilitando el soporte y mantenimiento inmediato.
 
-### 🧾 Departamento de Recursos Humanos
-
-> Software centrado en la gestión documental, comunicación y multimedia.
+### Departamento de Recursos Humanos
+ Software centrado en la gestión documental, comunicación y multimedia.
 
 **Herramientas adicionales:**
 - Correo y calendario: **Thunderbird**
