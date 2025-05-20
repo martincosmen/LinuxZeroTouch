@@ -37,6 +37,7 @@ El siguiente esquema representa las relaciones principales entre los elementos q
 
 Con el siguiente código es posible recrear la base de datos diseñada en un sistema gestor de datos mediante lenguaje SQL:
 
+```sql
 CREATE DATABASE IF NOT EXISTS linux_zero_touch;
 USE linux_zero_touch;
 
@@ -76,7 +77,7 @@ FOREIGN KEY (id_equipo) REFERENCES equipo(id_equipo),
 FOREIGN KEY (id_imagen) REFERENCES imagen(id_imagen),
 FOREIGN KEY (id_tecnico) REFERENCES tecnico(id_tecnico)
 );
-
+```
 
 ## Observaciones
 
