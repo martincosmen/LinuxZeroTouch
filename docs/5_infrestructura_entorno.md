@@ -4,7 +4,7 @@ En esta sección se detalla el entorno técnico y de ejecución del proyecto, ta
 
 ## 1. Infraestructura Hardware
 
-La instalación del sistema se realiza en un entorno **on-premise**, mediante máquinas virtuales creadas en VirtualBox simulando servidores y estaciones de trabajo.
+La instalación del sistema se realiza en un entorno local (on-premise), mediante máquinas virtuales creadas en VirtualBox simulando servidores y estaciones de trabajo.
 
 A continuación se describe el servidor principal utilizado para centralizar los servicios de red y desplegar los sistemas operativos de manera automatizada:
 
