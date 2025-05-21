@@ -68,4 +68,24 @@ Sin ellas, toda la post-instalación debería hacerse manualmente, lo que anula 
 *Pendiente de configuración*  
 Se documentará el uso de metadatos en cloud-init y la estructura de los playbooks de Ansible en la fase de configuración.
 
----
+## 5. Servicio FAI (Fully Automatic Installation)
+
+### Motivo de implementación
+
+Componente principal que permite realizar instalaciones automáticas y desatendidas del sistema operativo en los equipos cliente.  
+Se encarga de aplicar configuraciones específicas en función del tipo de equipo o del departamento al que pertenece, automatizando el proceso completo desde el particionado del disco hasta la instalación de paquetes y la configuración inicial.
+
+Sin FAI, sería necesario realizar múltiples instalaciones manuales o mantener plantillas estáticas difíciles de adaptar y escalar, perdiendo toda la ventaja de automatización flexible.
+
+### Software empleado
+
+- `fai-server`
+- `fai-setup-storage`
+- `fai-mirror`
+
+### Aspectos destacables de la configuración
+
+*Pendiente de configuración*  
+La estructura de clases (`classes`), scripts de instalación, configuración de particionado (`disk_config`) y listas de paquetes se definirá para cubrir los distintos perfiles de usuario (desarrollador, administración, RRHH).  
+FAI se integrará con PXE y el resto de servicios para lanzar automáticamente la instalación según el rol asignado a cada equipo.
+
