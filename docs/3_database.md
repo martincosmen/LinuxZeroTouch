@@ -1,7 +1,5 @@
 # Base de datos
 
-## Introducción
-
 Aunque este proyecto no se centra en el desarrollo de una aplicación web o un sistema que requiera una base de datos funcional, se incluye un modelo Entidad/Relación (E/R) que representa de forma conceptual el modelo de negocio relacionado con el entorno de automatización de instalaciones en una empresa de soporte técnico como PLEXUS TECH.
 
 ## Modelo Entidad/Relación
