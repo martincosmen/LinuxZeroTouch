@@ -10,7 +10,7 @@ A continuación se describe el servidor principal utilizado para centralizar los
 
 ### Servidor PXE / FAI
 
-- **Modelo de máquina virtual:** VirtualBox (genérica)
+- **Modelo de máquina virtual:** Debian Server 22.04
 - **Configuración hardware:**
   - CPU: 2 vCores
   - RAM: 4 GB
