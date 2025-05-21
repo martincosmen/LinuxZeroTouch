@@ -11,11 +11,13 @@ A continuación se describe el servidor principal utilizado para centralizar los
 ### Servidor PXE / FAI
 
 - **Modelo de máquina virtual:** Debian Server 22.04
+
 - **Configuración hardware:**
   - CPU: 2 vCores
   - RAM: 4 GB
   - Disco duro: 50 GB
   - Adaptador de red: Red interna (modo puente para acceso desde clientes)
+
 - **Servicios alojados:**
   - Servidor DHCP
   - Servidor TFTP
@@ -23,6 +25,7 @@ A continuación se describe el servidor principal utilizado para centralizar los
   - Servidor FAI
   - Cloud-init
   - Ansible
+
 - **Virtualización / contenedores:**
   - No se emplea virtualización bare-metal ni contenedores en el despliegue de servicios. Todos los servicios corren directamente sobre el sistema anfitrión del servidor PXE.
 
@@ -33,10 +36,11 @@ Se crean varias máquinas virtuales para simular los equipos de los distintos de
 - **Modelo de máquina virtual:** VirtualBox (Ubuntu Desktop)
 - **Cantidad de máquinas:** 3 (una por departamento)
 - **Configuración hardware (por equipo):**
-  - CPU: 1 vCore
-  - RAM: 2 GB
-  - Disco duro: 30 GB
+  - CPU: 2 vCore
+  - RAM: 4 GB
+  - Disco duro: 50 GB
   - Adaptador de red: Red interna (para recibir configuración y sistema vía PXE)
+
 - **Propósito:**
   - Verificar el correcto funcionamiento de la instalación automatizada.
   - Validar la instalación personalizada de paquetes para cada departamento.
