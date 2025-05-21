@@ -25,3 +25,18 @@ A continuación se describe el servidor principal utilizado para centralizar los
   - Ansible
 - **Virtualización / contenedores:**
   - No se emplea virtualización bare-metal ni contenedores en el despliegue de servicios. Todos los servicios corren directamente sobre el sistema anfitrión del servidor PXE.
+
+### Equipos Cliente (Desarrollo, Sistemas, RRHH)
+
+Se crean varias máquinas virtuales para simular los equipos de los distintos departamentos que se desplegarán automáticamente mediante PXE y configuración post-instalación.
+
+- **Modelo de máquina virtual:** VirtualBox (Ubuntu Desktop)
+- **Cantidad de máquinas:** 3 (una por departamento)
+- **Configuración hardware (por equipo):**
+  - CPU: 1 vCore
+  - RAM: 2 GB
+  - Disco duro: 30 GB
+  - Adaptador de red: Red interna (para recibir configuración y sistema vía PXE)
+- **Propósito:**
+  - Verificar el correcto funcionamiento de la instalación automatizada.
+  - Validar la instalación personalizada de paquetes para cada departamento.
