@@ -1,0 +1,27 @@
+# Infraestructura y Entorno
+
+En esta sección se detalla el entorno técnico y de ejecución del proyecto, tanto a nivel de hardware como de la distribución lógica de los servicios.
+
+## 1. Infraestructura Hardware
+
+La instalación del sistema se realiza en un entorno **on-premise**, mediante máquinas virtuales creadas en VirtualBox simulando servidores y estaciones de trabajo.
+
+A continuación se describe el servidor principal utilizado para centralizar los servicios de red y desplegar los sistemas operativos de manera automatizada:
+
+### Servidor PXE / FAI
+
+- **Modelo de máquina virtual:** VirtualBox (genérica)
+- **Configuración hardware:**
+  - CPU: 2 vCores
+  - RAM: 4 GB
+  - Disco duro: 50 GB
+  - Adaptador de red: Red interna (modo puente para acceso desde clientes)
+- **Servicios alojados:**
+  - Servidor DHCP
+  - Servidor TFTP
+  - Servidor HTTP
+  - Servidor FAI
+  - Cloud-init
+  - Ansible
+- **Virtualización / contenedores:**
+  - No se emplea virtualización bare-metal ni contenedores en el despliegue de servicios. Todos los servicios corren directamente sobre el sistema anfitrión del servidor PXE.
