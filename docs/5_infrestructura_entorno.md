@@ -44,3 +44,45 @@ Se crean varias máquinas virtuales para simular los equipos de los distintos de
 - **Propósito:**
   - Verificar el correcto funcionamiento de la instalación automatizada.
   - Validar la instalación personalizada de paquetes para cada departamento.
+
+ ## 2. Estaciones de trabajo
+
+En un escenario real de implementación, cada estación de trabajo estaría equipada con hardware físico adaptado a las necesidades específicas del departamento correspondiente. No obstante, en este proyecto todas las pruebas se realizan mediante máquinas virtuales en VirtualBox, con configuraciones iguales y simplificadas para simular correctamente el proceso de despliegue automatizado.
+
+A continuación se detallan las configuraciones recomendadas que podrían utilizarse en una implantación real en función del perfil profesional:
+
+### Departamento de Desarrollo
+
+Equipos con mayor capacidad de procesamiento y memoria para compilar código, ejecutar entornos de desarrollo, máquinas virtuales o contenedores.
+
+- **Procesador:** Intel Core i7 o AMD Ryzen 7  
+- **Memoria RAM:** 32 GB  
+- **Disco duro:** SSD de 1 TB  
+- **Tarjeta gráfica:** Básica, con soporte para herramientas gráficas  
+- **Conectividad:** Ethernet y Wi-Fi  
+- **Periféricos:** Teclado, ratón y monitor
+
+### Departamento de Administración de Sistemas
+
+Equipos preparados para la gestión de redes y sistemas, con recursos adecuados para ejecutar máquinas virtuales y herramientas de monitorización.
+
+- **Procesador:** Intel Core i5 o AMD Ryzen 5  
+- **Memoria RAM:** 16 GB  
+- **Disco duro:** SSD de 512 GB  
+- **Tarjeta gráfica:** Integrada  
+- **Conectividad:** Ethernet y Wi-Fi  
+- **Periféricos:** Teclado, ratón y monitor
+
+### Departamento de Recursos Humanos
+
+Equipos con requerimientos básicos, centrados en tareas de gestión documental, comunicación y ofimática.
+
+- **Procesador:** Intel Core i5 o AMD Ryzen 5  
+- **Memoria RAM:** 8–16 GB  
+- **Disco duro:** SSD de 256–512 GB  
+- **Tarjeta gráfica:** Integrada  
+- **Conectividad:** Ethernet y Wi-Fi  
+- **Periféricos:** Teclado, ratón y monitor
+
+> **Nota:** Aunque estas configuraciones representan una propuesta realista para su uso en producción, el entorno del proyecto se limita al uso de máquinas virtuales con especificaciones más reducidas, suficientes para demostrar la viabilidad del sistema de instalación y configuración automatizada.
+ 
