@@ -84,5 +84,5 @@ Equipos con requerimientos básicos, centrados en tareas de gestión documental,
 - **Conectividad:** Ethernet y Wi-Fi  
 - **Periféricos:** Teclado, ratón y monitor
 
- **Nota:** Aunque estas configuraciones representan una propuesta realista para su uso en producción, el entorno del proyecto se limita al uso de máquinas virtuales con especificaciones más reducidas, suficientes para demostrar la viabilidad del sistema de instalación y configuración automatizada.
+ **Observación:** Aunque estas configuraciones representan una propuesta realista para su uso en producción, el entorno del proyecto se limita al uso de máquinas virtuales con especificaciones más reducidas, suficientes para demostrar la viabilidad del sistema de instalación y configuración automatizada.
  
