@@ -1,0 +1,29 @@
+- name: Configuración por departamento
+  hosts: departamentos
+  become: yes
+
+  tasks:
+
+    - name: Instalar herramientas para RRHH
+      apt:
+        name:
+          - mutt
+          - pandoc
+        state: present
+      when: "'rrhh' in group_names"
+
+    - name: Instalar herramientas para Administración
+      apt:
+        name:
+          - htop
+          - nmon
+        state: present
+      when: "'administracion' in group_names"
+
+    - name: Instalar herramientas para Desarrollo
+      apt:
+        name:
+          - git
+          - curl
+        state: present
+      when: "'desarrollo' in group_names"
