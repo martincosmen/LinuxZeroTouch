@@ -1,0 +1,7 @@
+<html>
+  <head><title>Servidor PXE</title></head>
+  <body>
+    <h1>Servidor PXE en funcionamiento</h1>
+    <p>Directorio de arranque automático.</p>
+  </body>
+</html>
