@@ -1,0 +1,15 @@
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: nombre-equipo
+    username: usuario
+    password: contraseña-encriptada
+  keyboard:
+    layout: es
+  locale: es_ES
+  packages:
+    - paquete1
+    - paquete2
+  late-commands:
+    - echo "Comandos post-instalación"
