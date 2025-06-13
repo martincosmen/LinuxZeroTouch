@@ -1,7 +1,7 @@
 #!ipxe
 
 :start
-menu Instalacian automatica - Selecciona un departamento
+menu Instalacion automatica - Selecciona un departamento
 item 1            Departamento 1
 item 2            Departamento 2
 item 3            Departamento 3
