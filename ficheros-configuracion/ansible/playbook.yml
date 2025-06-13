@@ -4,26 +4,26 @@
 
   tasks:
 
-    - name: Instalar herramientas para RRHH
+    - name: Instalar herramientas para DEP1
       apt:
         name:
-          - mutt
-          - pandoc
+          - paquete
+          - paquete
         state: present
-      when: "'rrhh' in group_names"
+      when: "'dep1' in group_names"
 
-    - name: Instalar herramientas para Administración
+    - name: Instalar herramientas para DEP2
       apt:
         name:
-          - htop
-          - nmon
+          - paquete
+          - paquete
         state: present
-      when: "'administracion' in group_names"
+      when: "'dep2' in group_names"
 
-    - name: Instalar herramientas para Desarrollo
+    - name: Instalar herramientas para DEP3
       apt:
         name:
-          - git
-          - curl
+          - paquete
+          - paquete
         state: present
-      when: "'desarrollo' in group_names"
+      when: "'dep3' in group_names"
