@@ -1,0 +1,33 @@
+#!ipxe
+
+:start
+menu Instalacian automatica - Selecciona un departamento
+item 1            Departamento 1
+item 2            Departamento 2
+item 3            Departamento 3
+item shell           Ir a la shell de iPXE
+choose dept && goto ${dept}
+
+:1
+kernel http://192.168.x.x/pxe/iso/vmlinuz ip=dhcp \
+       url=http://192.168.x.x/pxe/iso/iso-del-sistema \
+       autoinstall ds=nocloud-net;s=http://192.168.x.x/pxe/cloud-init/1/
+initrd http://192.168.x.x/pxe/iso/initrd
+boot
+
+:2
+kernel http://192.168.x.x/pxe/iso/vmlinuz ip=dhcp \
+       url=http://192.168.x.x/pxe/iso/iso-del-sistema \
+       autoinstall ds=nocloud-net;s=http://192.168.x.x/pxe/cloud-init/2/
+initrd http://192.168.x.x/pxe/iso/initrd
+boot
+
+:3
+kernel http://192.168.x.x/pxe/iso/vmlinuz ip=dhcp \
+       url=http://192.168.x.x/pxe/iso/iso-del-sistema \
+       autoinstall ds=nocloud-net;s=http://192.168.x.x/pxe/cloud-init/3/
+initrd http://192.168.x.x/pxe/iso/initrd
+boot
+
+:shell
+shell
