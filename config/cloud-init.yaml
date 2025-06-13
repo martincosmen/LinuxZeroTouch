@@ -1,4 +1,0 @@
-# cloud-init.yaml
-# Este fichero define la configuración inicial de los sistemas Linux durante el primer arranque tras la instalación.
-# Incluye tareas como la creación de usuarios, configuración de red, instalación de paquetes esenciales y ejecución de scripts iniciales.
-# Se utiliza en combinación con herramientas de aprovisionamiento como cloud-init o NoCloud.

@@ -1,1 +1,0 @@
-# guion_presentacion

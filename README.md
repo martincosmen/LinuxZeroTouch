@@ -1,30 +1,15 @@
-# LinuxZeroTouch
+# Configuración del servidor PXE
 
-## Descripción
+Este repositorio contiene todos los ficheros utilizados en la configuración del servidor PXE para el despliegue automatizado de sistemas operativos mediante cloud-init y Ansible.
 
-Proyecto orientado a la automatización de la instalación y configuración de sistemas Linux mediante el uso de herramientas como:
+## Estructura del repositorio
 
-- PXE
-- Preseed
-- Ansible
-- Cloud-init
+- `ficheros-configuracion/ansible/`: Contiene el playbook, inventario y configuración de Ansible utilizados para instalar y configurar automáticamente los paquetes y servicios necesarios en los clientes.
 
-Este repositorio se realiza con la idea de ordenadar con precisión mi proyecto de fin de ciclo.
+- `ficheros-configuracion/cloud-init/`: Archivos `user-data` y `meta-data` utilizados por cloud-init durante la instalación automática de los sistemas operativos.
 
-## Estructura del Proyecto
+- `ficheros-configuracion/pxe/`: Ficheros esenciales del arranque por red PXE/iPXE, incluyendo el script `boot.ipxe`, el kernel (`vmlinuz`), el initramfs (`initrd`) y otros recursos necesarios para el despliegue.
 
-- `config/`: Archivos de configuración para la instalación automática (Preseed), personalización inicial (cloud-init) y configuración post-instalación (Ansible).
-- `scripts/`: Scripts adicionales para tareas complementarias o soporte a la automatización.
-- `docs/`: Documentación técnica del proyecto.
-- `demo/`: Archivos relacionados con la demostración del proyecto (capturas, grabaciones, configuraciones del entorno virtual, etc.).
+---
 
-## Cómo ejecutar
-
-1. Clonar este repositorio:
-
-```bash
-git clone https://github.com/martincosmen/LinuxZeroTouch.git
-```
-2. Dirígete a la carpeta correspondiente según la tarea (por ejemplo, config/ para ver configuraciones o scripts/ para ejecutar scripts).
-
-3. Sigue las instrucciones dentro de cada carpeta para configurar y automatizar tu entorno.
+Este repositorio está orientado exclusivamente al despliegue automatizado en una red local simulada. Puedes adaptarlo a tus necesidades o entorno real.
